@@ -1,0 +1,102 @@
+<!DOCTYPEhtml>
+<htmllang="es">
+<head>
+
+<link href="css/estilo4.css"rel="stylesheet"type="text/css">
+<meta name="description" content="Esta mi primera pagina creada en HTML">
+<meta name="keywords" content= mi primera pagina , mi primera pagina en html, creacion de paginas">
+<center><title>UNETE A LA RED DE ACTIVISTAS</title>
+</style>
+<h1 style=" font-size:25px;">¡ÚNETE A LA RED DE ACTIVISTAS! </h1>
+<link rel="stylesheet"ref="estilo4.css">
+
+
+<bodybackground="images (4).jpg"bgcolor="#B18904"text "black">
+<center><table width="950"><tr><td>
+<img src="red.jpg" alt="logo de nuestra pagina web">
+
+
+<a href="index.html">
+<img src="Imagen1.png" borde="0" alt="boton de Inicio"></a>
+<a href="violencia.html">
+<img src="Imagen4.png" borde="0" alt="boton de Violencia"></a>
+<a href=" AnimaNaturalis.html">
+<img src="Imagen2.png" borde="0" alt="boton de AnimalNaturalis"></a>
+<a href="Activistas.html">
+<img src="Activistas.png" borde="0" alt="boton de Activistas"></a>
+
+<p>
+ Tómate el tiempo para rellenar este formulario, no será más de un minuto. De esta manera podremos informarte de cualquier evento que se organice cerca de tu localidad, alertas urgentes y noticias relacionadas. Nuestra Red de Activistas es una herramienta poderosa para trabajar unidos por los animales.
+</p>
+</head>
+</body>
+
+<main>
+<form action=""class"formulario id="formulario">
+<h4>Formulario Registro</h4>
+<div class="formulario__grupo" id="grupo_nombre">
+<label for="nombre" class="formulario__label">Nombre</label>
+<div class="formulario__grupo-input">
+<input type="text" class="formulario__input"name="nombre"id="nombre"placeholder="Escriba su nombre">
+<i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+</div>
+<p class="formulario__input-error">El nombre solo puede contener letras</p>
+</div>
+
+
+<div class="formulario__grupo" id="grupo_apellido">
+<label for="apellido" class="formulario__label">Apellidos</label>
+<div class="formulario__grupo-input">
+<input type="text" class="formulario__input"name="apellido" id="apellido"placeholder="Escriba su apellido">
+<i class="formulario__validacion-estado fas fa-solid fa-circle-xmark"></i>
+</div>
+<p class="formulario__input-error">El apellido solo puede contener letras</p>
+</div>
+
+
+<div class="formulario__grupo" id="grupo_telefono">
+<label for="telefono" class="formulario__label">Teléfono</label>
+<div class="formulario__grupo-input">
+<input type="text" class="formulario__input"name="telefono" id="telefono"placeholder="Escriba su número de tel">
+<i class="formulario_validación-estado fa-solid fa-xmark"></i>
+</div>
+<p class="formulario__input-error">Este campo solo puede contener numeros</p>
+</div>
+
+<div class="formulario__grupo" id="grupo_correo">
+<label for="correo" class="formulario__label">Correo electrónio</label>
+<div class="formulario__grupo-input">
+<input type="email" class="formulario__input"name="correo" id="correo"placeholder="correo@correo.com">
+<i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+</div>
+<p class="formulario__input-error">Este campo solo puede contener numeros</p>
+</div>
+
+<div class="formulario__grupo" id="grupo_password">
+<label for="password" class="formulario__label">Password</label>
+<div class="formulario__grupo-input">
+<input type="password" class="formulario__input"name="pasword" id="password">
+<i class="formulario__validacio-estado fas fa-solid fa-circle-xmark"></i>
+</div>
+<p class="formulario__input-error">El correo  tiene que ser de 4 a 16 dígitos puede contener letras , números y guión bajo.</p>
+
+<div class="formulario__grupo"id=grupo__terminos">
+<label class="formulario__label">
+<input class="formulario__ckeckbox" type="checkbox" name="terminos" id="terminos">
+Acepto los Terminos y Condiciones
+</label>
+</div>
+<div class="formulario__mensaje" id="formulario__mensaje">
+<p><i class="fa-solid fa-circle-exclamation"></i><b>Error</b>Por favor llene el formulario correctamente</p>
+</div>
+<div class="formulario__grupo formulario__grupo-btn-enviar">
+<button type="submit"class="formulario__btn">Enviar</button>
+<p class="formulario__mensaje-gracias" id="formulario__mensaje-gracias">El formulario se envió exitosamente</p>
+</form>
+
+</main>
+script src="js/formulario.js"></script>
+<script src="https://kit.fontawesone.com/2c36e9b7b1.js"crossorigin="anonymous"></script>
+</body>
+</html>
+

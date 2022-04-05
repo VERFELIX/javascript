@@ -1,0 +1,75 @@
+/* Las reglas a seguir es definir el atributo del estilo que se desea modificar , los valores que permiten definir como se van a modificar y los selectores para indicar a cuales
+ elementos HTML se le van a aplicar los estilos*/
+/*En esta regla elegimos la plantilla h1 para modificar el titulo de la página, lo siguiente es abrir una llave
+{ que me permitira abrir el atributo al que se le va aplicar el selector, atributo a usarse el background-color:red;
+  le asignara el color que se desea poner a al fondo de mi titulo, de la misma forma 
+podemos alinear nuesto texto con el atributo text-align:center;el atributo color:white para cambiar el color de la letra,
+el atributo font-size:40px;para modificar el tamano, el atributo font-family:Georgia para cambiar el tipo de letra*/
+h1{
+background-color:red;
+text-align:center;
+color:white;
+width:1200px;
+font-family:Georgia;
+font-size:40px;
+}
+/* las regla para modificar el cuerpo de nuestra página html utilizando la plantilla boby y apliacando las regla
+utilizando el atributo background-color:green, podemos cambiar el color de fondo de nuestra página*/
+body{
+background-color:#BEF781;
+}
+/* Reglas para modificar el tiepo de letra , su tamaño e incluir un fondo a nuestros parrafos es mediante la 
+plantilla p */
+p{
+color:green;
+font-family:Arial;
+font-size:17px;
+background-color:yellow;
+}
+/*para poder modificar el como mostramos una imagen podemos asignarle un borde o marco a nuestra imagen utilizando los siguientes atributos*/
+img{
+width:150px;
+height:auto;
+borde-raius:5px;
+padding:10px;
+border: solid; 
+}
+
+/* Las listas se les puede modificar la viñeta que por default es un circulo negro , tambíen se les puede asignar una imagen personalizada
+mediante la siguiente regla list-style-image: url("IMAGENES/flecha.png"), si solo se desea cambiar la vñeta hay varias opciones 
+dentro de ellas la opcion list-style-type:circle*/
+u1 {
+	list-style-type:circle;
+	
+}
+
+/* En cuanto a las tablas podemos modificar los margenes y bordes asi como cambiar el color del encabezadao de 
+nuestra tabla cambiando la plantilla <td> por <th> de igual forma se puede agregar la plantilla
+<caption> para agregarle un texto que acompañe ese cuadro esta plantilla se modificara con los atributos */
+
+table{
+margin-top:50px;
+margin-left:auto;
+margin-right:auto;
+text-align:left;
+width:60%;
+caption-side:bottom;
+border-collapse:collapse;
+}
+th{
+background-color:black;
+color:white;
+}
+caption{
+padding-top:20px;
+font-style:italic;
+}
+td,th{
+border:2px solid black;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+

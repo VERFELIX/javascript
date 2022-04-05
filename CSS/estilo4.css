@@ -1,0 +1,124 @@
+h1{
+text-align:center;
+color:black;
+width:1200px;
+font-family:Georgia;
+font-size:40p
+}
+body{
+front-family:calibri;
+background-color:#BEF781;
+}
+p{
+color:#21610B;
+font-family:Arial;
+font-size:17px;
+}
+
+main{
+width:400px;
+background: #C8FE2E;
+padding:30px;
+margin: auto;
+margin-top:100px;
+border-radius:4px;
+font-family:'calibri';
+color:white;
+box-shadow:7px 13px 37px #000;
+
+}
+
+.form-register4{
+font-size:22px;
+margin-bottom:20px;
+}
+.formulario__input:focus{
+border:3px solid #0075FF;
+outline:none;
+box-shadow:3px 0px 30px rgba(163,163,163,0.4);
+}
+.formulario__input-error{
+font-size:12px;
+margin-bottom:0;
+display:none;
+}
+
+.formulario__input-error-activo{
+display:block;
+}
+.formulario__validación-estado{
+possition:absolute;
+right:10px;
+bottom:15x;
+z-index:100;
+font-size:16px;
+opacity:0;
+}
+.formulario_checkbox{
+margin-right:10px;
+}
+.formulario__grupo-terminos,
+.formulario--mensaje,
+.formulario__grupo-btn-enviar{
+grip-colum:spam2;
+}
+
+.formulario__mensaje{
+height:45px;
+line-height:45px;
+background:#F66060;
+padding:0 15ppx;
+border-raius:3px;
+display:none;
+}
+.formulario__mensaje-activo{
+display:block;
+}
+.formulario__mensaje p{
+margin:0;
+}
+.formulario__grupo-btn-enviar{
+display:flex;
+flex-direction:colum;
+aling-items:center;
+}
+.formulario__btn{
+height:45px;
+line-height:45px;
+width:30%;
+background:#000;
+color:#fff;
+font-weight:bold;
+border:none;
+border-radius:3px;
+cursor:pointer;
+transition: .1s ease all;
+
+}
+.formulario__btn:hover{
+box-shadow:30px 0px 30pxrgba(163,163,163,1)
+}
+.formulario__mensaje-gracias{
+font-size:14px;
+color:#119200;
+display:none;
+}
+.formulario_mensaje-exito-activo{
+display:block;
+}
+.formulario__grupo-correcto .formulario__validacion-estado{
+color:##B40431;
+opacity:1;
+}
+.formulario__grupo-incorrecto .formulario__label{
+color:#B40431;
+}
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+color:red;
+opacity:1;
+}
+.formulario__grupo-incorrecto .formulario__input{
+border:3px solid #B40431;
+}
+
+
